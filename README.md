@@ -1,6 +1,14 @@
 # Omnifood
 A one-page landing site of a fictitious food delivery company.
+___
+Project Overview 📑
+This is a simple one-page website featuring the fictitious Omnifood brand. I've built this following the Udemy course <a href="https://www.google.com/" target="_blank">BRW and Development with HTML5 and CSS3</a> by Jonas Schmedtmann.
+___
+Technologies Used 💻
+HTML5
+CSS3 
+JQuery
 
-This is a simple one-page website featuring the fictitious Omnifood brand. This is built and taught from a Udemy course RWD and Development with HTML5 and CSS3.
 
-The site also uses subtle animations using jQuery. Another version will make use of different tools/ languages to enhance the landing page's performance and development time.
+
+
