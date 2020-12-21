@@ -28,12 +28,17 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="sticky">
         <div class="row">
           <img
             src="resources/img/logo-white.png"
             alt="Omnifood logo"
             class="logo"
+          />
+          <img
+            src="resources/img/logo.png"
+            alt="Omnifood logo"
+            class="logo-black"
           />
           <ul class="main-nav">
             <li><a href="#">Food delivery</a></li>
@@ -52,7 +57,7 @@
         <a class="btn btn-ghost" href="#">Show me more</a>
       </div>
     </header>
-    <section class="section-features">
+    <section class="section-features js--section-features">
       <div class="row">
         <h2>Get food fast &mdash; not fast food</h2>
         <p class="long-copy">
@@ -534,14 +539,20 @@
         </div>
       </div>
       <div class="row">
-        <p>Copyright &copy; 2020 by Omnifood. All rights reserved.</p>
+        <p>
+          This webpage was created for the course "Design and Develop a Killer
+          Website Using HTML5 and CSS3" by Jonas Schmedtmann. No copyrights
+          here.
+        </p>
       </div>
     </footer>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
 </html>
 
 <!--
